@@ -37,6 +37,11 @@ sudo apt-get autoremove --purge -y
 sudo apt-get install xorg -y
 
 
+# Eliminamos las imagenes de nuestra distribucion
+cd /usr/share/plymouth/
+sudo rm ubuntu-logo.png
+sudo rm -r themes/
+
 
 # Reiniciamos
 reboot
