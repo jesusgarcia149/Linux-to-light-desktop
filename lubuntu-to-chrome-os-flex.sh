@@ -7,11 +7,12 @@
 sudo apt update
 
 # Google-chrome-stable
-sudo nano /etc/apt/sources.list.d/google-chrome.list
-deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main
-wget https://dl.google.com/linux/linux_signing_key.pub
-sudo apt update
-sudo apt install google-chrome-stable -y
+sudo apt upgrade -y
+sudo apt install wget -y
+sudo wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+cd ~/Downloads
+sudo dpkg -i google-chrome-stable*.deb
+sudo apt install -f -y
 
 
 
