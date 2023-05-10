@@ -5,14 +5,15 @@
 
 # Actualizar repositorios
 sudo apt update
+sudo apt upgrade -y
 
 # Google-chrome-stable
-sudo apt upgrade -y
 sudo apt install wget -y
-sudo wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-cd ~/Downloads
-sudo dpkg -i google-chrome-stable*.deb
-sudo apt install -f -y
+wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
+sudo apt update
+sudo apt install google-chrome-stable -y
+
 
 # Volvemos a la ruta inicial
 cd
