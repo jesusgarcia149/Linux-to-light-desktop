@@ -6,31 +6,12 @@
 # Actualizar repositorios
 sudo apt update
 
-# Kodi v19.2 - Matrix
-sudo add-apt-repository ppa:team-xbmc/ppa -y
+# Google-chrome-stable
+sudo nano /etc/apt/sources.list.d/google-chrome.list
+deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main
+wget https://dl.google.com/linux/linux_signing_key.pub
 sudo apt update
-sudo apt install kodi -y
-
-
-
-
-# Kodi config
-
-# Addons
-
-## Pluto TV
-### Repositorio: Repositorios Oficiales
-#### instalacion: addons de videos > Pluto TV
-
-## Konectas > Balandro
-### Repositorio: http://konectas.es/repo/
-#### instalacion: %Nombre_de_la_fuente% > ADDONS CON REPOSITORIO > BALANDRO > repository.balandro-1.0.3.zip
-
-## Youtube (Sin API)
-## Addond Cristal Azul
-## url: https://mundokodi.com/addon-cristal-azul-en-kodi/
-### Repositorio: https://fuentekodileia.github.io/
-#### instalacion: %Nombre_de_la_fuente% > addons-todo-en-uno > plugin.video.cristalazul-x.x.x.zip
+sudo apt install google-chrome-stable -y
 
 
 
@@ -43,7 +24,7 @@ cd
 cd .config
 cd lxsession
 cd Lubuntu
-echo 'kodi' > autostart
+echo 'google-chrome-stable' > autostart
 
 
 
@@ -52,7 +33,7 @@ echo 'kodi' > autostart
 sudo apt-get remove lubuntu* -y
 sudo apt-get autoremove --purge -y
 # En caso que te hallas quedado sin servidor grafico
-sudo apt install xorg -y
+sudo apt-get install xorg -y
 
 
 
