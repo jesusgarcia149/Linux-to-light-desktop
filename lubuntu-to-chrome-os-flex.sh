@@ -14,7 +14,8 @@ cd ~/Downloads
 sudo dpkg -i google-chrome-stable*.deb
 sudo apt install -f -y
 
-
+# Volvemos a la ruta inicial
+cd
 
 
 # Iniciamos kodi con el sistema
@@ -23,8 +24,7 @@ sudo apt install -f -y
 # Automatica
 cd
 cd .config
-cd lxsession
-cd Lubuntu
+cd openbox
 echo 'google-chrome-stable' > autostart
 
 
@@ -39,7 +39,7 @@ sudo apt-get install xorg -y
 
 
 # Reiniciamos
-# reboot
+reboot
 
 
 
