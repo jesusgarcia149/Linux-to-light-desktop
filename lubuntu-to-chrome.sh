@@ -55,7 +55,7 @@ sudo apt install xorg xterm -y
 # Instalamos el gestor de ventanas openbox
 sudo apt install openbox obconf -y
 # Instalamos lanzador de servidor grafico lightdm
-sudo apt install lightdm lightdm-gtk-greenter -y
+sudo apt install lightdm lightdm-gtk-greeter -y
 # Instalamos Google-chrome-stable
 sudo apt install wget -y
 wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
