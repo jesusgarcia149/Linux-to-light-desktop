@@ -6,39 +6,33 @@ sudo apt update
 
 
 # Eliminar el Entorno de Escritorio lubuntu
-sudo apt-get remove lubuntu* -y
+#sudo apt-get remove lubuntu* -y
 # Eliminar el Entorno de Escritorio xubuntu
-sudo apt-get remove xubuntu* -y
+#sudo apt-get remove xubuntu* -y
 # Eliminar el Entorno de Escritorio kubuntu
-sudo apt-get remove kubuntu* -y
+#sudo apt-get remove kubuntu* -y
 # Eliminar el Entorno de Escritorio ubuntu (daña el sistema operativo)
 # sudo apt-get remove ubuntu* -y
 # Eliminar el Entorno de Escritorio lxde
-sudo apt-get remove lx* -y
+#sudo apt-get remove lx* -y
 # Eliminar el Entorno de Escritorio xfce
-sudo apt-get remove xfce* -y
+#sudo apt-get remove xfce* -y
 # Eliminar el Entorno de Escritorio kde
-sudo apt-get remove kde* -y
+#sudo apt-get remove kde* -y
 # Eliminar el Entorno de Escritorio gnome
-sudo apt-get remove gnome* -y
+#sudo apt-get remove gnome* -y
 
 # Eliminamos los programas
-sudo apt remove firefox sylpheed pidgin* audacious evince* -y
-sudo apt remove pulseaudio leafpad vim* fcitx* hardinfo htop system-config-printer synaptic -y
+#sudo apt remove firefox sylpheed pidgin* audacious evince* -y
+#sudo apt remove pulseaudio leafpad vim* fcitx* hardinfo htop system-config-printer synaptic -y
 
 # Eliminamos las fuentes
-sudo apt remove fonts* -y
+#sudo apt remove fonts* -y
 
 # Purgamos
-sudo apt-get autoremove --purge -y
+#sudo apt-get autoremove --purge -y
 # Limpiamos
-sudo apt-get clean
-
-
-# Eliminamos las imagenes de nuestra distribucion
-cd /usr/share/plymouth/
-sudo rm ubuntu-logo.png
-sudo rm -r themes/
+#sudo apt-get clean
 
 
 # Instalamos el servidor grafico xorg
@@ -64,6 +58,12 @@ cd .config
 cd openbox
 touch autostart
 echo 'google-chrome-stable' > autostart
+
+
+# Eliminamos las imagenes de nuestra distribucion
+cd /usr/share/plymouth/
+sudo rm ubuntu-logo.png
+sudo rm -r themes/
 
 
 # Limpiamos instaladores de paquetes
