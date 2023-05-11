@@ -54,7 +54,7 @@ sudo rm -r themes/
 sudo apt install xorg xterm -y
 # Instalamos el gestor de ventanas openbox
 sudo apt install openbox obconf -y
-# Instalamos lanzador de servidor grafico lightdm
+# Instalamos el display manager
 sudo apt install lightdm lightdm-gtk-greeter -y
 # Instalamos Google-chrome-stable
 sudo apt install wget -y
