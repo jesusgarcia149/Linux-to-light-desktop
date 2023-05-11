@@ -1,11 +1,9 @@
 #! /bin/bash
 
 
-
-
 # Actualizar repositorios
 sudo apt update
-sudo apt upgrade -y
+
 
 # Google-chrome-stable
 sudo apt install wget -y
@@ -20,15 +18,10 @@ cd
 
 
 # Iniciamos kodi con el sistema
-# Manual
-# menu > Preferencias > Aplicaciones predeterminadas para LXSession > Inicio automatico > Aplicaciones autoiniciadas manuales > kodi
-# Automatica
-cd
 cd .config
 cd openbox
+touch autostart
 echo 'google-chrome-stable' > autostart
-
-
 
 
 # Eliminar el Entorno de Escritorio lubuntu
@@ -44,6 +37,10 @@ sudo apt-get autoremove --purge -y
 sudo apt-get install xorg -y
 
 
+# Actualizamos los paquetes
+sudo apt upgrade -y
+
+
 # Eliminamos las imagenes de nuestra distribucion
 cd /usr/share/plymouth/
 sudo rm ubuntu-logo.png
@@ -52,8 +49,6 @@ sudo rm -r themes/
 
 # Reiniciamos
 reboot
-
-
 
 
 # Atajos del teclado
