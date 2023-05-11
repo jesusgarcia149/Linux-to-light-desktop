@@ -38,7 +38,7 @@ sudo apt-get install xorg -y
 
 
 # Actualizamos los paquetes
-sudo apt upgrade -y
+# sudo apt upgrade -y
 
 
 # Eliminamos las imagenes de nuestra distribucion
