@@ -38,7 +38,7 @@ sudo apt-get autoremove --purge -y
 sudo apt-get install xorg -y
 
 # Eliminamos Programas Adicionales
-sudo apt remove firefox audacious -y
+sudo apt remove firefox gnome-mpv audacious gpicview mtpain -y
 sudo apt autoremove --purge -y
 
 # Eliminamos las imagenes de nuestra distribucion
