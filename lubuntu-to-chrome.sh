@@ -50,10 +50,12 @@ sudo rm ubuntu-logo.png
 sudo rm -r themes/
 
 
-# Instalamos el servidor grafico
-sudo apt install xorg -y
-# Instalamos Openbox
-sudo apt install openbox -y
+# Instalamos el servidor grafico xorg
+sudo apt install xorg xterm -y
+# Instalamos el gestor de ventanas openbox
+sudo apt install openbox obconf -y
+# Instalamos lanzador de servidor grafico lightdm
+sudo apt install lightdm lightdm-gtk-greenter -y
 # Instalamos Google-chrome-stable
 sudo apt install wget -y
 wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
