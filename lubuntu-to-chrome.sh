@@ -31,8 +31,8 @@ sudo apt-get remove lx* -y
 sudo apt-get remove xfce* -y
 # Eliminar el Entorno de Escritorio kde
 sudo apt-get remove kde* -y
-# Eliminar el Entorno de Escritorio gnome (daña el sistema operativo)
-# sudo apt-get remove gnome* -y
+# Eliminar el Entorno de Escritorio gnome
+sudo apt-get remove gnome* -y
 
 # Eliminamos programas
 sudo apt remove firefox sylpheed pidgin gpicview audacious mtpaint evince -y
