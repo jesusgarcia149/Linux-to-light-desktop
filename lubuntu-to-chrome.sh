@@ -32,10 +32,12 @@ sudo apt-get remove xfce* -y
 # Eliminar el Entorno de Escritorio kde
 sudo apt-get remove kde* -y
 # Eliminar el Entorno de Escritorio gnome
-sudo apt-get remove gnome* -y
+# sudo apt-get remove gnome* -y
 
 # Purgamos
 sudo apt-get autoremove --purge -y
+# Limpiamos
+sudo apt-get clean
 
 
 # Eliminamos las imagenes de nuestra distribucion
