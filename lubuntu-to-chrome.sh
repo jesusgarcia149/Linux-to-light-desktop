@@ -34,9 +34,12 @@ sudo apt-get remove kde* -y
 # Eliminar el Entorno de Escritorio gnome
 sudo apt-get remove gnome* -y
 
-# Eliminamos programas
+# Eliminamos los programas
 sudo apt remove firefox sylpheed pidgin* audacious evince* -y
 sudo apt remove pulseaudio leafpad vim* fcitx* hardinfo htop system-config-printer synaptic -y
+
+# Eliminamos las fuentes
+sudo apt remove fonts* -y
 
 # Purgamos
 sudo apt-get autoremove --purge -y
