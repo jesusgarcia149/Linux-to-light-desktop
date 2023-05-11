@@ -36,7 +36,7 @@ sudo apt-get remove gnome* -y
 
 # Eliminamos programas
 sudo apt remove firefox sylpheed pidgin-data audacious evince-common -y
-sudo apt remove pulseaudio leafpad vim-common vim-tiny fcitx hardinfo htop system-config-printer synaptic -y
+sudo apt remove pulseaudio leafpad vim-common vim-tiny fcitx* hardinfo htop system-config-printer synaptic -y
 
 # Purgamos
 sudo apt-get autoremove --purge -y
