@@ -37,6 +37,9 @@ sudo apt-get autoremove --purge -y
 # Eliminar el Entorno de Escritorio lxde
 sudo apt-get remove lx* -y
 sudo apt-get autoremove --purge -y
+# Eliminar el Entorno de Escritorio gnome
+sudo apt-get remove gnome* -y
+sudo apt-get autoremove --purge -y
 # En caso que te hallas quedado sin servidor grafico
 sudo apt-get install xorg -y
 
