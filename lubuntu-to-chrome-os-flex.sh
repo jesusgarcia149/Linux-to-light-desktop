@@ -17,7 +17,7 @@ sudo apt install google-chrome-stable -y
 cd
 
 
-# Iniciamos kodi con el sistema
+# Iniciamos Chrome con el sistema
 cd .config
 cd openbox
 touch autostart
