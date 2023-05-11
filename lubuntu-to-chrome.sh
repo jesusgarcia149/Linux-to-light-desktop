@@ -35,8 +35,7 @@ sudo apt-get remove kde* -y
 # sudo apt-get remove gnome* -y
 
 # Eliminamos programas
-sudo apt remove firefox sylpheed pidgin gpicview audacious mtpaint evince -y
-sudo apt remove pulseaudio mpv -y
+sudo apt remove firefox sylpheed pidgin gpicview audacious mtpaint evince pulseaudio mpv leafpad vim -y
 
 # Purgamos
 sudo apt-get autoremove --purge -y
