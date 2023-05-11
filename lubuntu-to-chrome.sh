@@ -24,7 +24,7 @@ sudo apt-get remove xubuntu* -y
 # Eliminar el Entorno de Escritorio kubuntu
 sudo apt-get remove kubuntu* -y
 # Eliminar el Entorno de Escritorio ubuntu
-sudo apt-get remove ubuntu* -y
+# sudo apt-get remove ubuntu* -y
 # Eliminar el Entorno de Escritorio lxde
 sudo apt-get remove lx* -y
 # Eliminar el Entorno de Escritorio xfce
