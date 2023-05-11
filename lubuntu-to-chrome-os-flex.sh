@@ -31,15 +31,15 @@ echo 'google-chrome-stable' > autostart
 
 
 
-# Eliminar el Entorno de Escritorio lxde
+# Eliminar el Entorno de Escritorio lubuntu
 sudo apt-get remove lubuntu* -y
+sudo apt-get autoremove --purge -y
+# Eliminar el Entorno de Escritorio lxde
+sudo apt-get remove lx* -y
 sudo apt-get autoremove --purge -y
 # En caso que te hallas quedado sin servidor grafico
 sudo apt-get install xorg -y
 
-# Eliminamos Programas Adicionales
-sudo apt remove firefox gnome-mpv audacious gpicview mtpain -y
-sudo apt autoremove --purge -y
 
 # Eliminamos las imagenes de nuestra distribucion
 cd /usr/share/plymouth/
