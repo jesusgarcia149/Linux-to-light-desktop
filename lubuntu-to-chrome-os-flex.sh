@@ -39,6 +39,7 @@ sudo apt-get install xorg -y
 
 # Eliminamos Programas Adicionales
 sudo apt remove firefox audacious -y
+sudo apt autoremove --purge -y
 
 # Eliminamos las imagenes de nuestra distribucion
 cd /usr/share/plymouth/
