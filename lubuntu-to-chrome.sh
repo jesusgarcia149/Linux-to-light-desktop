@@ -55,6 +55,7 @@ cd
 
 # Iniciamos Chrome con el sistema
 cd .config
+mkdir openbox
 cd openbox
 touch autostart
 echo 'google-chrome-stable' > autostart
