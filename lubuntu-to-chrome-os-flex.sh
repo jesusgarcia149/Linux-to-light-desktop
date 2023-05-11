@@ -37,6 +37,8 @@ sudo apt-get autoremove --purge -y
 # En caso que te hallas quedado sin servidor grafico
 sudo apt-get install xorg -y
 
+# Eliminamos Programas Adicionales
+sudo apt remove firefox audacious -y
 
 # Eliminamos las imagenes de nuestra distribucion
 cd /usr/share/plymouth/
