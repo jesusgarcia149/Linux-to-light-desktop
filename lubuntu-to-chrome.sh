@@ -35,8 +35,8 @@ sudo apt-get remove kde* -y
 sudo apt-get remove gnome* -y
 
 # Eliminamos programas
-sudo apt remove firefox sylpheed pidgin-data audacious evince* -y
-sudo apt remove pulseaudio leafpad vim-common vim-tiny fcitx* hardinfo htop system-config-printer synaptic -y
+sudo apt remove firefox sylpheed pidgin* audacious evince* -y
+sudo apt remove pulseaudio leafpad vim* fcitx* hardinfo htop system-config-printer synaptic -y
 
 # Purgamos
 sudo apt-get autoremove --purge -y
