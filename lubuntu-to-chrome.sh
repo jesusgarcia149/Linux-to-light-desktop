@@ -23,7 +23,7 @@ sudo apt-get remove lubuntu* -y
 sudo apt-get remove xubuntu* -y
 # Eliminar el Entorno de Escritorio kubuntu
 sudo apt-get remove kubuntu* -y
-# Eliminar el Entorno de Escritorio ubuntu
+# Eliminar el Entorno de Escritorio ubuntu (daña el sistema operativo)
 # sudo apt-get remove ubuntu* -y
 # Eliminar el Entorno de Escritorio lxde
 sudo apt-get remove lx* -y
@@ -31,7 +31,7 @@ sudo apt-get remove lx* -y
 sudo apt-get remove xfce* -y
 # Eliminar el Entorno de Escritorio kde
 sudo apt-get remove kde* -y
-# Eliminar el Entorno de Escritorio gnome
+# Eliminar el Entorno de Escritorio gnome (daña el sistema operativo)
 # sudo apt-get remove gnome* -y
 
 # Eliminamos programas
