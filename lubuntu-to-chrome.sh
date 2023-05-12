@@ -92,7 +92,7 @@ cd .config
 mkdir openbox
 cd openbox
 touch autostart
-echo 'google-chrome-stable' > autostart
+echo 'tint2 & google-chrome-stable &' > autostart
 
 
 # Eliminamos las imagenes de nuestra distribucion
