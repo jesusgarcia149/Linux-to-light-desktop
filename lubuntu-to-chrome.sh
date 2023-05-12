@@ -52,7 +52,7 @@ sudo apt install xfce4-notifyd -y
 # Instalamos el gestor de fondos de pantalla nitrogen
 sudo apt install nitrogen -y
 # Instalamos el explorador de archivos
-sudo apt install thunar thunar-archive-plugin -y
+sudo apt install pcmanfm -y
 # Instalamos el gestor de apariencias
 sudo apt install lxappearance -y
 
