@@ -36,7 +36,6 @@ sudo apt install openbox obconf openbox-menu -y
 # Instalamos el display manager
 sudo apt install lightdm lightdm-gtk-greeter -y
 
-
 # Instalamos la barra de tareas tint2
 sudo apt install tint2 tint2conf -y
 # Instalamos el gestor de redes network-manager-gnome
@@ -51,6 +50,8 @@ sudo apt install gsimplecal -y
 sudo apt install xfce4-notifyd -y
 # Instalamos el gestor de fondos de pantalla nitrogen
 sudo apt install nitrogen -y
+# Instalamos el administrador de monitor
+sudo apt install lxrandr -y
 # Instalamos el explorador de archivos
 sudo apt install pcmanfm -y
 # Instalamos el gestor de apariencias
