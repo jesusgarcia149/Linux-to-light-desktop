@@ -22,12 +22,6 @@ sudo apt-get remove kde* -y
 # Eliminar el Entorno de Escritorio gnome
 sudo apt-get remove gnome* -y
 
-# Eliminamos los programas
-sudo apt remove firefox sylpheed pidgin* audacious evince* -y
-sudo apt remove pulseaudio leafpad vim* fcitx* hardinfo htop system-config-printer synaptic -y
-
-# Eliminamos las fuentes
-sudo apt remove fonts* -y
 
 # Purgamos
 sudo apt-get autoremove --purge -y
@@ -47,6 +41,15 @@ wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-ke
 sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
 sudo apt update
 sudo apt install google-chrome-stable -y
+
+
+# Eliminamos los programas
+sudo apt remove firefox sylpheed pidgin* audacious evince* -y
+sudo apt remove pulseaudio leafpad vim* fcitx* hardinfo htop system-config-printer synaptic -y
+sudo apt remove abiword* gnumeric* mtpaint* simple-scan* gpicview* transmission* tint2* xfburn* guvcview* xpad* -y
+
+# Eliminamos las fuentes
+sudo apt remove fonts* -y
 
 
 # Volvemos a la ruta inicial
