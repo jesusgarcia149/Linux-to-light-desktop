@@ -46,7 +46,7 @@ sudo apt install google-chrome-stable -y
 # Eliminamos los programas
 sudo apt remove firefox sylpheed pidgin* audacious evince* -y
 sudo apt remove pulseaudio leafpad vim* fcitx* hardinfo htop system-config-printer synaptic -y
-sudo apt remove abiword* gnumeric* mtpaint* simple-scan* gpicview* transmission* tint2* xfburn* guvcview* xpad* -y
+sudo apt remove abiword* gnumeric* mtpaint* simple-scan* gpicview* transmission* tint2* xfburn* guvcview* xpad* galculator -y
 
 # Eliminamos las fuentes
 sudo apt remove fonts* -y
