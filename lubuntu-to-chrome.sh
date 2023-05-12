@@ -38,8 +38,10 @@ sudo apt install lightdm lightdm-gtk-greeter -y
 
 # Instalamos la barra de tareas tint2
 sudo apt install tint2 tint2conf -y
+
 # Instalamos el menu de aplicaciones rofi
-# sudo apt install rofi -y
+# sudo apt install rofi -y  
+
 # Instalamos el gestor de redes network-manager-gnome
 sudo apt install network-manager-gnome -y
 # Instalamos el gestor de volumen pulseaudio -y
@@ -112,6 +114,16 @@ sudo apt-get clean
 
 # Reiniciamos
 reboot
+
+
+
+# Personalizacion Manual
+# abrimos el editor de tint2 = tint2conf
+# Editar tema... 
+# Elementos del Panel = Boton 1 + Lanzador + Barra de Tareas + Bateria + Reloj
+# Lanzador = Gestor de Archivos + Google Chrome
+# Boton 1 - Icono = /usr/share/icons/Lubuntu/actions/24/gtk-select-color.svg
+# Boton 1 - Mensaje emergente = Menu de Aplicaciones 
 
 
 # Atajos del teclado
