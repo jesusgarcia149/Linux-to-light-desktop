@@ -52,6 +52,12 @@ sudo apt remove abiword* gnumeric* mtpaint* simple-scan* gpicview* transmission*
 sudo apt remove fonts* -y
 
 
+# Purgamos
+sudo apt-get autoremove --purge -y
+# Limpiamos
+sudo apt-get clean
+
+
 # Volvemos a la ruta inicial
 cd
 
