@@ -32,9 +32,31 @@ sudo apt-get clean
 # Instalamos el servidor grafico xorg
 sudo apt install xorg xterm -y
 # Instalamos el gestor de ventanas openbox
-sudo apt install openbox obconf -y
+sudo apt install openbox obconf openbox-menu -y
 # Instalamos el display manager
 sudo apt install lightdm lightdm-gtk-greeter -y
+
+
+# Instalamos la barra de tareas tint2
+sudo apt install tint2 tint2conf -y
+# Instalamos el gestor de redes network-manager-gnome
+sudo apt install network-manager-gnome -y
+# Instalamos el gestor de volumen pulseaudio -y
+sudo apt install pnmisex pulseaudio -y
+# Instalamos el gestor de bateria
+sudo apt install xfce4-power-manager -y
+# Instalamos el calendario
+sudo apt install gsimplecal -y
+# Instalamos el gestor de notificaciones
+sudo apt install xfce4-notifyd -y
+# Instalamos el gestor de fondos de pantalla nitrogen
+sudo apt install nitrogen -y
+# Instalamos el explorador de archivos
+sudo apt install thunar thunar-archive-plugin -y
+# Instalamos el gestor de apariencias
+sudo apt install lxappearance -y
+
+
 # Instalamos Google-chrome-stable
 sudo apt install wget -y
 wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
@@ -46,7 +68,7 @@ sudo apt install google-chrome-stable -y
 # Eliminamos los programas
 sudo apt remove firefox sylpheed pidgin* audacious evince* -y
 sudo apt remove pulseaudio leafpad vim* fcitx* hardinfo htop system-config-printer synaptic -y
-sudo apt remove abiword* gnumeric* mtpaint* simple-scan* gpicview* transmission* tint2* xfburn* guvcview* xpad* galculator file-roller* -y
+sudo apt remove abiword* gnumeric* mtpaint* simple-scan* gpicview* transmission* xfburn* guvcview* xpad* galculator file-roller* -y
 
 # Eliminamos las fuentes
 sudo apt remove fonts* -y
