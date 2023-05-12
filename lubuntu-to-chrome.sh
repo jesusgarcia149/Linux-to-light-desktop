@@ -56,6 +56,8 @@ sudo apt install nitrogen -y
 sudo apt install lxrandr -y
 # Instalamos el explorador de archivos
 sudo apt install pcmanfm -y
+# Instalamos el editor de texto
+sudo apt install leafpad -y
 # Instalamos el gestor de apariencias
 sudo apt install lxappearance -y
 
