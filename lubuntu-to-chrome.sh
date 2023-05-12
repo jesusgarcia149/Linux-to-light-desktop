@@ -38,8 +38,8 @@ sudo apt install lightdm lightdm-gtk-greeter -y
 
 # Instalamos la barra de tareas tint2
 sudo apt install tint2 tint2conf -y
-# Instalamos el menu de aplicaciones
-# sudo apt install -y
+# Instalamos el menu de aplicaciones rofi
+# sudo apt install rofi -y
 # Instalamos el gestor de redes network-manager-gnome
 sudo apt install network-manager-gnome -y
 # Instalamos el gestor de volumen pulseaudio -y
