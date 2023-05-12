@@ -124,6 +124,7 @@ reboot
 # Lanzador = Gestor de Archivos + Google Chrome
 # Boton 1 - Icono = /usr/share/icons/Lubuntu/actions/24/gtk-select-color.svg
 # Boton 1 - Mensaje emergente = Menu de Aplicaciones 
+# Boton 1 - Comando de clic izquierdo = rofi -show drun
 
 
 # Atajos del teclado
