@@ -28,6 +28,8 @@ sudo apt-get autoremove --purge -y
 # Limpiamos
 sudo apt-get clean
 
+# Instalamos la terminal
+sudo apt install lxterminal -y
 
 # Instalamos el servidor grafico xorg
 sudo apt install xorg xterm -y
